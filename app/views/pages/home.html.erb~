@@ -1,5 +1,7 @@
-<h1>Pages#home</h1>
+<h1>Application Exemple</h1>
 <h3><%= @titre %></h3>
 <p>
-	C'est la page d'ccueil de l'application Exemple du <a href="http://railstutorial.org/">Tutoriel Ruby on Rails</a>.
+  C'est la page d'ccueil de l'application Exemple du <a href="http://railstutorial.org/">Tutoriel Ruby on Rails</a>.
 </p>
+
+<%= link_to "S'inscrire&nbsp;!", "#", :class => "signup_button round" %>
