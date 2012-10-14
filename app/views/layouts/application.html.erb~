@@ -10,9 +10,13 @@
 <body>
   <div class="container">
     <%= render 'layouts/header' %>
+
     <section class="round">
         <%= yield %>
     </section>
+
+    <%= render 'layouts/footer' %>
+    <%= render(params) if (!Rails.env.developement?) %>
   </div>
 </body>
 </html>
