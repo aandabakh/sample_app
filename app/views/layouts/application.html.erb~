@@ -16,7 +16,7 @@
     </section>
 
     <%= render 'layouts/footer' %>
-    <%= render(params) if (!Rails.env.developement?) %>
+    <%= render(params) if (Rails.env.developement?) %>
   </div>
 </body>
 </html>
