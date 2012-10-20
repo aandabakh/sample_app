@@ -1,0 +1,8 @@
+  <tr>
+    <td class="micropost">
+      <span class="content"><%= micropost.content %></span>
+      <span class="timestamp">
+        Poste il y a <%=  %>
+      </span>
+    </td>
+  </tr>
