@@ -7,14 +7,18 @@ gem 'rails', '3.2.8'
 
 gem 'mysql2'
 gem 'gravatar_image_tag', '1.0.0.pre2'
+gem 'will_paginate', '~> 3.0'
 
 group :development do
   gem 'rspec-rails', '>= 2.8.1'
+  gem 'faker', '0.3.1'
 end
 
 group :test do
   gem 'rspec', '>= 2.8.1'
   gem 'webrat', '>= 0.7.3'
+  gem 'spork', '0.8.4'
+  gem 'factory_girl_rails', '4.1.0'
 end
 
 
