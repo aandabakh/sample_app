@@ -1,0 +1,18 @@
+<table summary="Information a propos des auteurs suivis ou des lecteurs">
+  <tr>
+    <td class="main">
+      <h1><%= titre %></h1>
+      <% unless @users.empty? %>
+        <ul class="users">
+          <%= render @users %>
+        </ul>
+        <%= will_paginate %>
+      <% end %>
+    </td>
+    <td class="sidebar round">
+      <strong>Nom</strong><%= @user.nom %><br />
+      <strong>URL</strong>
+      <strong>Messages</strong>
+    </td>
+  </tr>
+</table>
